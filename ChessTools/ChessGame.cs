@@ -9,9 +9,9 @@ namespace ChessTools
         private string round;
         private string whitePlayer;
         private string blackPlayer;
-        private int whiteElo;
-        private int blackElo;
-        private string result;
+        private uint whiteElo;
+        private uint blackElo;
+        private char result;
         private DateTime eventDate;
         private string moves;
 
@@ -20,9 +20,9 @@ namespace ChessTools
         public string Round { get => round; set => round = value; }
         public string WhitePlayer { get => whitePlayer; set => whitePlayer = value; }
         public string BlackPlayer { get => blackPlayer; set => blackPlayer = value; }
-        public int WhiteElo { get => whiteElo; set => whiteElo = value; }
-        public int BlackElo { get => blackElo; set => blackElo = value; }
-        public string Result { get => result; set => result = value; }
+        public uint WhiteElo { get => whiteElo; set => whiteElo = value; }
+        public uint BlackElo { get => blackElo; set => blackElo = value; }
+        public char Result { get => result; set => result = value; }
         public DateTime EventDate { get => eventDate; set => eventDate = value; }
         public string Moves { get => moves; set => moves = value; }
     }
